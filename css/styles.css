@@ -48,6 +48,8 @@ button {
 /* test git */
 /* ===================== COMPONENTS =====================  */
 .subtitle {
+  text-align: center;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -60,10 +62,36 @@ button {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-white-theme);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* ======================/COMPONENTS =====================*/
 
 /* =======================HEADER ===========================  */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
 .logo {
+  margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -88,11 +116,15 @@ button {
   color: var(--accent-color);
 }
 .contact-header {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-white-theme);
+}
+.contact-item-list:last-child {
+  margin-left: 50px;
 }
 .contact-item {
   color: inherit;
@@ -104,8 +136,43 @@ button {
 /*======================== /HEADER==========================  */
 
 /* =========================MAIN============================ */
+/* hero section */
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2f303a;
+}
+
+.hero-button {
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  min-width: 200px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark-theme);
+  background-color: var(--accent-color);
+}
+
 /* advantages section */
+.advantages-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .page-title {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -114,24 +181,14 @@ button {
   text-transform: uppercase;
   color: var(--main-text-color-dark-theme);
   /* adding background color in order to see the words on the page */
-  background-color: #2f303a;
 }
-.hero-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--main-text-color-dark-theme);
-  background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  cursor: pointer;
+
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
 }
+
 .advantages-name {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -140,12 +197,22 @@ button {
   color: var(--main-text-color-white-theme);
 }
 .advantages-descrp {
+  min-width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-white-theme);
 }
+/* ocupation list */
+.occupation-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* team section */
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
 .colleagues-name {
   font-weight: 500;
   font-size: 16px;
