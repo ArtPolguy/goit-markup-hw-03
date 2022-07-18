@@ -1,0 +1,199 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-text-color-dark-theme: #ffffff;
+  --main-text-color-white-theme: #212121;
+  --secondary-text-color-white-theme: #757575;
+  --accent-color: #2196f3;
+  --main-background-color: #2f303a;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* test git */
+/* ===================== COMPONENTS =====================  */
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+}
+.card-title {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-white-theme);
+}
+/* ======================/COMPONENTS =====================*/
+
+/* =======================HEADER ===========================  */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-text-color-white-theme);
+}
+.logo-part {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color-white-theme);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-white-theme);
+}
+.contact-item {
+  color: inherit;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
+/*======================== /HEADER==========================  */
+
+/* =========================MAIN============================ */
+/* advantages section */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-text-color-dark-theme);
+  /* adding background color in order to see the words on the page */
+  background-color: #2f303a;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark-theme);
+  background-color: var(--accent-color);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+}
+.advantages-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color-white-theme);
+}
+.advantages-descrp {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-white-theme);
+}
+/* team section */
+.colleagues-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+}
+/*=====================================/ main ======================================*/
+/* ====================================footer====================================== */
+.contacts {
+  font-style: normal;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark-theme);
+  /* adding background color in order to see the words on the page */
+  background-color: #2f303a;
+}
+.contact-address {
+  color: inherit;
+}
+.contact-link {
+  color: inherit;
+  opacity: 60%;
+}
+/* ===================================/footer===================================== */
+/* portfolio */
+.works-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-white-theme);
+  cursor: pointer;
+}
+.works-button:hover,
+.works-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-text-color-dark-theme);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-white-theme);
+}
