@@ -69,8 +69,6 @@ button {
   color: var(--main-text-color-white-theme);
 }
 .card-title {
-  margin-bottom: 30px;
-  text-align: center;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -219,6 +217,14 @@ button {
   color: var(--secondary-text-color-white-theme);
 }
 /* ocupation list */
+.occupation-section {
+  padding-bottom: 94px;
+}
+.occupation-img {
+  max-width: 100%;
+  height: auto;
+}
+
 .occupation-list {
   display: flex;
   justify-content: space-between;
@@ -232,8 +238,11 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.subtitle-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .colleagues-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -242,6 +251,7 @@ button {
   color: var(--main-text-color-white-theme);
 }
 .team-item {
+  background-color: #fff;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -251,13 +261,13 @@ button {
 /*=====================================/ main ======================================*/
 /* ====================================footer====================================== */
 .footer-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 .page-footer {
   background-color: #2f303a;
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: var(--secondary-font);
@@ -292,32 +302,24 @@ button {
 /* portfolio */
 .button-works-list {
   display: flex;
-  justify-content: space-between;
-  margin-left: 295px;
-  margin-right: 295px;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 50px;
-  min-width: 611px;
 }
-.portfolio-item {
-  border: 1px solid #eeeeee;
-}
-.portfolio-item:nth-child(-n + 6) {
-  margin-bottom: 30px;
-}
-.portfolio-item:nth-child(3n + 2) {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 .portfolio-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .portfolio-container {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .works-button {
   padding-top: 6px;
@@ -331,7 +333,6 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--main-text-color-white-theme);
-  cursor: pointer;
 }
 .card-title-portfolio {
   font-size: 16px;
